@@ -9,6 +9,7 @@ import { CarsService } from 'src/app/shared/services/cars.service';
 })
 export class PopularCarsComponent implements OnInit {
   constructor(private _carsService:CarsService){}
+  name:string=''
   carsList:Car[]=[]
   ngOnInit(): void {
       this.getRecommendCar()

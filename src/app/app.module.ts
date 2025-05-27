@@ -13,7 +13,9 @@ import { SignInComponent } from './core/pages/auth/sign-in/sign-in.component';
 import { SignOutComponent } from './core/pages/auth/sign-out/sign-out.component';
 import { HeroComponent } from './core/component/hero/hero.component';
 import { PopularCarsComponent } from './core/component/popular-cars/popular-cars.component';
-
+import { SearchPipe } from './shared/pipes/search.pipe';
+import { FormsModule } from '@angular/forms';
+import { NgxPaginationModule } from 'ngx-pagination';
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,12 +28,15 @@ import { PopularCarsComponent } from './core/component/popular-cars/popular-cars
     SignInComponent,
     SignOutComponent,
     HeroComponent,
-    PopularCarsComponent
+    PopularCarsComponent,
+    SearchPipe
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    FormsModule,
+    NgxPaginationModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -3,7 +3,7 @@
         <div class="d-flex flex-column gap-4 justify-content-center">
             <div class="position-relative">
                 <i class="fa-solid fa-xl fa-location-dot position-absolute  translate-middle-y top-50 icon"></i>
-                <input type="text" name="search" id="search" class="bg-black" placeholder="Search By Name"
+                <input type="text" name="search" [(ngModel)]="name" id="search" class="bg-black" placeholder="Search By Name"
                     class="w-100 ps-5 py-3 rounded-3">
                 <button class="search_btn btn btn-primary position-absolute translate-middle-y top-50">Search</button>
             </div>
@@ -13,7 +13,7 @@
             <h3 class="text-center mt-3 mb-5">Most popular cars rental deals</h3>
 
             <div class="row g-5 justify-content-center">
-                <div class="col-md-6 col-lg-3" *ngFor="let car of carsList">
+                <div class="col-md-6 col-lg-3" *ngFor="let car of carsList|search:name">
                     <div class="card rounded-3 shadow border-0 p-4 h-100">
                         <img src="assets/images/Audi 1.svg" class="card-img-top mb-3" alt="Jaguar XE L P250">
 
@@ -39,7 +39,7 @@
                 </div>
             </div>
 
-            <button class="btn_show btn my-5">Show all vehicles <i class="bi bi-arrow-right"></i></button>
+            <button class="btn_show btn my-5" routerLink="/allCars">Show all vehicles <i class="bi bi-arrow-right"></i></button>
 
         </div>
     </div>

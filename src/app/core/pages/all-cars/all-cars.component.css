@@ -1,0 +1,33 @@
+section{
+    margin-block: 40px;
+}
+h2{
+    font-size: 32px;
+    font-weight: 500;
+   font-family: "Poppins", sans-serif;
+   color:#959595 ;
+
+}
+
+.title_shape{
+        padding-inline: 42px;
+        padding-block: 16px;
+        background:#1571d336;
+        border: #1571d336;
+        border-radius: 8px;
+        color:#1572D3 ;
+        font-family: "Poppins", sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    
+h3{
+        font-family: "Poppins", sans-serif;
+        font-size: 38px;
+        font-weight: 500;
+    }
+
+   .my-pagination::ng-deep .ngx-pagination .current {
+    background: rgb(135, 133, 133);
+    border:1px solid gray;
+   }
