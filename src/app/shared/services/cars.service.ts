@@ -14,4 +14,7 @@ export class CarsService {
   getPostCarId(id:number):Observable<any>{
     return this._HttpClient.get(`https://myfakeapi.com/api/cars/${id}`)
   }
+  searchByName(name:string):Observable<any>{
+    return this._HttpClient.get(`https://myfakeapi.com/api/cars/name/${name}`)
+  }
 }

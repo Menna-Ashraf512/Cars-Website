@@ -13,11 +13,11 @@
             <h3 class="text-center mt-3 mb-5">Most popular cars rental deals</h3>
 
             <div class="row g-5 justify-content-center">
-                <div class="col-md-6 col-lg-3">
+                <div class="col-md-6 col-lg-3" *ngFor="let car of carsList">
                     <div class="card rounded-3 shadow border-0 p-4 h-100">
                         <img src="assets/images/Audi 1.svg" class="card-img-top mb-3" alt="Jaguar XE L P250">
 
-                        <h6 class="fw-semibold">Jaguar XE L P250</h6>
+                        <h6 class="fw-semibold">{{car.car}} </h6>
                         <div class="text-muted small mb-2">
                             ⭐ 4.8 <span class="text-secondary">(2,436 reviews)</span>
                         </div>
@@ -31,82 +31,10 @@
                         <hr>
                         <div class="fw-semibold mb-2 text-muted d-flex justify-content-between">
                             <span>Price</span>
-                            <span><span class="text-dark">$1,800</span> /day</span>
+                            <span><span class="text-dark">{{car.price}}</span> /day</span>
                         </div>
 
                         <a class="btn btn-primary w-100">Rent Now <i class="bi bi-arrow-right"></i></a>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="card rounded-3 shadow border-0 p-4 h-100">
-                        <img src="assets/images/Audi 1.svg" class="card-img-top mb-3" alt="Jaguar XE L P250">
-
-                        <h6 class="fw-semibold">Jaguar XE L P250</h6>
-                        <div class="text-muted small mb-2">
-                            ⭐ 4.8 <span class="text-secondary">(2,436 reviews)</span>
-                        </div>
-                        <div class="row text-muted small mb-3 gx-0">
-                            <div class="col-6 mb-2">4 Passengers</div>
-                            <div class="col-6 mb-2">Auto</div>
-                            <div class="col-6">Air Conditioning</div>
-                            <div class="col-6">4 Doors</div>
-                        </div>
-
-                        <hr>
-                        <div class="fw-semibold mb-2 text-muted d-flex justify-content-between">
-                            <span>Price</span>
-                            <span><span class="text-dark">$1,800</span>/day</span>
-                        </div>
-
-                        <a href="#" class="btn btn-primary w-100">Rent Now →</a>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="card rounded-3 shadow border-0 p-4 h-100">
-                        <img src="assets/images/Audi 1.svg" class="card-img-top mb-3" alt="Jaguar XE L P250">
-
-                        <h6 class="fw-semibold">Jaguar XE L P250</h6>
-                        <div class="text-muted small mb-2">
-                            ⭐ 4.8 <span class="text-secondary">(2,436 reviews)</span>
-                        </div>
-                        <div class="row text-muted small mb-3 gx-0">
-                            <div class="col-6 mb-2">4 Passengers</div>
-                            <div class="col-6 mb-2">Auto</div>
-                            <div class="col-6">Air Conditioning</div>
-                            <div class="col-6">4 Doors</div>
-                        </div>
-
-                        <hr>
-                        <div class="fw-semibold mb-2 text-muted d-flex justify-content-between">
-                            <span>Price</span>
-                            <span><span class="text-dark">$1,800</span>/day</span>
-                        </div>
-
-                        <a href="#" class="btn btn-primary w-100">Rent Now →</a>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="card rounded-3 shadow border-0 p-4 h-100">
-                        <img src="assets/images/Audi 1.svg" class="card-img-top mb-3" alt="Jaguar XE L P250">
-
-                        <h6 class="fw-semibold">Jaguar XE L P250</h6>
-                        <div class="text-muted small mb-2">
-                            ⭐ 4.8 <span class="text-secondary">(2,436 reviews)</span>
-                        </div>
-                        <div class="row text-muted small mb-3 gx-0">
-                            <div class="col-6 mb-2">4 Passengers</div>
-                            <div class="col-6 mb-2">Auto</div>
-                            <div class="col-6">Air Conditioning</div>
-                            <div class="col-6">4 Doors</div>
-                        </div>
-
-                        <hr>
-                        <div class="fw-semibold mb-2 text-muted d-flex justify-content-between">
-                            <span>Price</span>
-                            <span><span class="text-dark">$1,800</span>/day</span>
-                        </div>
-
-                        <a href="#" class="btn btn-primary w-100">Rent Now →</a>
                     </div>
                 </div>
             </div>
