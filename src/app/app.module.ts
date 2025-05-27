@@ -16,6 +16,7 @@ import { PopularCarsComponent } from './core/component/popular-cars/popular-cars
 import { SearchPipe } from './shared/pipes/search.pipe';
 import { FormsModule } from '@angular/forms';
 import { NgxPaginationModule } from 'ngx-pagination';
+import { CardItemComponent } from './shared/component/card-item/card-item.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -29,7 +30,8 @@ import { NgxPaginationModule } from 'ngx-pagination';
     SignOutComponent,
     HeroComponent,
     PopularCarsComponent,
-    SearchPipe
+    SearchPipe,
+    CardItemComponent
   ],
   imports: [
     BrowserModule,

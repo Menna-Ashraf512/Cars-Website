@@ -33,7 +33,7 @@
                             <span><span class="text-dark">{{car.price}}</span> /day</span>
                         </div>
 
-                        <a class="btn btn-primary w-100">Rent Now <i class="bi bi-arrow-right"></i></a>
+                        <a class="btn btn-primary w-100"[routerLink]="['/carDetails',car.id]">Rent Now <i class="bi bi-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
