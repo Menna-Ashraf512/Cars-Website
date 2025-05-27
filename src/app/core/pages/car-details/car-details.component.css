@@ -1,0 +1,40 @@
+section{
+    height: 100vh;
+    margin-bottom: 20px;
+}
+.title_shape{
+        padding-inline: 42px;
+        padding-block: 16px;
+        background:#1571d336;
+        border: #1571d336;
+        border-radius: 8px;
+        color:#1572D3 ;
+        font-family: "Poppins", sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    
+h3{
+        font-family: "Poppins", sans-serif;
+        font-size: 38px;
+        font-weight: 500;
+    }
+
+
+@media (min-width: 768px) {
+  .car-img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform:translateY(-50%)  ;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .car-img {
+    position: static !important;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+}
+

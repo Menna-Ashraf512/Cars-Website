@@ -10,7 +10,7 @@
             <div class="align-self-center mt-4">
                 <span class="title_shape">POPULAR RENTAL DEALS</span>
             </div>
-            <h3 class="text-center mt-3 mb-5">Most popular cars rental deals</h3>
+            <h3 class="text-center mt-3 mb-2">Most popular cars rental deals</h3>
 
             <div class="row g-5 justify-content-center">
                 <div class="col-md-6 col-lg-3" *ngFor="let car of carsList|search:name">
@@ -33,13 +33,11 @@
                             <span>Price</span>
                             <span><span class="text-dark">{{car.price}}</span> /day</span>
                         </div>
-
                         <a class="btn btn-primary w-100"[routerLink]="['/carDetails',car.id]">Rent Now <i class="bi bi-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
-
-            <button class="btn_show btn my-5" routerLink="/allCars">Show all vehicles <i class="bi bi-arrow-right"></i></button>
+            <button class="btn_show btn my-3" routerLink="/allCars">Show all vehicles <i class="bi bi-arrow-right"></i></button>
 
         </div>
     </div>
