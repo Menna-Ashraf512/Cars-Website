@@ -1,5 +1,5 @@
 .popular_cars{
-    height: 100vh;
+    height: auto;
     & input{
         outline: none;
         border: none;

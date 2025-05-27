@@ -4,6 +4,7 @@ import { HomeComponent } from './core/pages/home/home.component';
 import { AllCarsComponent } from './core/pages/all-cars/all-cars.component';
 import { CarDetailsComponent } from './core/pages/car-details/car-details.component';
 import { NotFoundComponent } from './shared/component/not-found/not-found.component';
+import { PopularCarsComponent } from './core/component/popular-cars/popular-cars.component';
 
 const routes: Routes = [
   {path:'',redirectTo:'home', pathMatch:"full"},
