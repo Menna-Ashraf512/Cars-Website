@@ -1,0 +1,25 @@
+.hero-section {
+  height: 100vh;
+}
+.img_bg{
+    opacity: 13%;
+}
+.car-img {
+  max-width: 50vw; 
+  height: auto;
+  z-index: 1;
+}
+span img{
+    bottom:-10px;
+}
+.text-start{
+  font-family: "Poppins", sans-serif;
+  & .headerInfo{
+  font-size: 48px;
+  font-weight: 600;
+}
+  & p{
+    font-size: 18px;
+    font-weight: 400;
+  }
+}

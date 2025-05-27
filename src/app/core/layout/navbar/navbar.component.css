@@ -1,0 +1,26 @@
+nav{
+    z-index: 10;
+}
+.navbar-brand{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #1572D3;
+    
+}
+
+.nav-item a{
+    color: #484848;
+    font-family: "Poppins",sans-serif;
+    font-weight: 500;
+
+}
+.btn{
+    font-weight: 500;
+    padding-inline: 32px;
+    padding-block: 16px;
+}
+@media(min-width:1200px) {
+    .navbar-nav{
+    column-gap: 40px;
+}
+}

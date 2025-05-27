@@ -11,6 +11,8 @@ import { FooterComponent } from './core/layout/footer/footer.component';
 import { NotFoundComponent } from './shared/component/not-found/not-found.component';
 import { SignInComponent } from './core/pages/auth/sign-in/sign-in.component';
 import { SignOutComponent } from './core/pages/auth/sign-out/sign-out.component';
+import { HeroComponent } from './core/component/hero/hero.component';
+import { PopularCarsComponent } from './core/component/popular-cars/popular-cars.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { SignOutComponent } from './core/pages/auth/sign-out/sign-out.component'
     FooterComponent,
     NotFoundComponent,
     SignInComponent,
-    SignOutComponent
+    SignOutComponent,
+    HeroComponent,
+    PopularCarsComponent
   ],
   imports: [
     BrowserModule,
