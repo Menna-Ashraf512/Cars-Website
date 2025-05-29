@@ -19,7 +19,6 @@ import { NgxPaginationModule } from 'ngx-pagination';
 import { CardItemComponent } from './shared/component/card-item/card-item.component';
 import { HowWorkComponent } from './core/component/how-work/how-work.component';
 import { WhyChooseComponent } from './core/component/why-choose/why-choose.component';
-import { PeoleSayComponent } from './core/component/peole-say/peole-say.component';
 import { PeopleSayComponent } from './core/component/people-say/people-say.component';
 @NgModule({
   declarations: [
@@ -38,7 +37,6 @@ import { PeopleSayComponent } from './core/component/people-say/people-say.compo
     CardItemComponent,
     HowWorkComponent,
     WhyChooseComponent,
-    PeoleSayComponent,
     PeopleSayComponent
   ],
   imports: [
