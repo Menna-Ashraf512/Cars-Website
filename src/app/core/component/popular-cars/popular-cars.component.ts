@@ -18,7 +18,7 @@ export class PopularCarsComponent implements OnInit {
     this._carsService.getAllCars()
       .subscribe( {
         next:(res)=>{
-          this.carsList=res.cars.slice(0,4)
+          this.carsList=res.cars
             console.log(this.carsList)
         },
         error:(err)=>{

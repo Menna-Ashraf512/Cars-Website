@@ -1,0 +1,21 @@
+footer{
+    background: #051C34;
+    & ul li a ,
+    ul li i{
+        width: fit-content;
+        color: #D6D6D6;
+    }
+    & h5{
+        color: #FFFFFF;
+    }
+}
+.icon_social li img{
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+}
+.navbar-brand{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #FFFFFF;
+}
