@@ -27,6 +27,8 @@ span img{
   .car-img {
     position: absolute;
     right: 0;
+    top: 50%;
+    transform: translateY(-30%);
   }
   .info {
     position: absolute;
