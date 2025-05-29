@@ -17,6 +17,10 @@ import { SearchPipe } from './shared/pipes/search.pipe';
 import { FormsModule } from '@angular/forms';
 import { NgxPaginationModule } from 'ngx-pagination';
 import { CardItemComponent } from './shared/component/card-item/card-item.component';
+import { HowWorkComponent } from './core/component/how-work/how-work.component';
+import { WhyChooseComponent } from './core/component/why-choose/why-choose.component';
+import { PeoleSayComponent } from './core/component/peole-say/peole-say.component';
+import { PeopleSayComponent } from './core/component/people-say/people-say.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -31,7 +35,11 @@ import { CardItemComponent } from './shared/component/card-item/card-item.compon
     HeroComponent,
     PopularCarsComponent,
     SearchPipe,
-    CardItemComponent
+    CardItemComponent,
+    HowWorkComponent,
+    WhyChooseComponent,
+    PeoleSayComponent,
+    PeopleSayComponent
   ],
   imports: [
     BrowserModule,
