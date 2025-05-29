@@ -12,7 +12,7 @@
 span img{
     bottom:-10px;
 }
-.text-start{
+.info{
   font-family: "Poppins", sans-serif;
   & .headerInfo{
   font-size: 48px;
@@ -21,5 +21,16 @@ span img{
   & p{
     font-size: 18px;
     font-weight: 400;
+  }
+}
+@media (min-width: 1200px) {
+  .car-img {
+    position: absolute;
+    right: 0;
+  }
+  .info {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
   }
 }

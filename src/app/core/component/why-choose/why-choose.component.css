@@ -1,0 +1,40 @@
+section{
+    margin-top: 40px;
+    padding-top: 40px;
+
+}
+.icon_shape {
+    padding: 30px;
+    background-color: #ECF5FF;
+    margin-right: 24px;
+    border-radius: 16px;
+}
+.title_shape{
+        padding-inline: 42px;
+        padding-block: 16px;
+        background:#ECF5FF;
+        border: #ECF5FF;
+        border-radius: 8px;
+        color:#1572D3 ;
+        font-family: "Poppins", sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    
+h3{
+        font-family: "Poppins", sans-serif;
+        font-size: 38px;
+        font-weight: 500;
+    }
+
+
+@media (min-width: 1200px) {
+  .car-img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform:translateY(-50%)  ;
+  }
+}
+
+
