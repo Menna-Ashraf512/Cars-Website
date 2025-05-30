@@ -17,7 +17,11 @@ nav{
 .btn{
     font-weight: 500;
     padding-inline: 32px;
-    padding-block: 16px;
+    padding-block: 10px;
+}
+.btnSign{
+    background: #1572D3;
+    color:white;
 }
 @media(min-width:1200px) {
     .navbar-nav{

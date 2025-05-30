@@ -1,5 +1,6 @@
 .popular_cars{
-    height: auto;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
     & input{
         outline: none;
         border: none;
