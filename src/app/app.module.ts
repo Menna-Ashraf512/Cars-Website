@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule , CUSTOM_ELEMENTS_SCHEMA} from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import {HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
@@ -20,6 +20,7 @@ import { CardItemComponent } from './shared/component/card-item/card-item.compon
 import { HowWorkComponent } from './core/component/how-work/how-work.component';
 import { WhyChooseComponent } from './core/component/why-choose/why-choose.component';
 import { PeopleSayComponent } from './core/component/people-say/people-say.component';
+import { register } from 'swiper/element/bundle';
 @NgModule({
   declarations: [
     AppComponent,
@@ -37,7 +38,7 @@ import { PeopleSayComponent } from './core/component/people-say/people-say.compo
     CardItemComponent,
     HowWorkComponent,
     WhyChooseComponent,
-    PeopleSayComponent
+    PeopleSayComponent,
   ],
   imports: [
     BrowserModule,
@@ -47,6 +48,11 @@ import { PeopleSayComponent } from './core/component/people-say/people-say.compo
     NgxPaginationModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
-export class AppModule { }
+export class AppModule { 
+    constructor() {
+    register();
+  }
+}
