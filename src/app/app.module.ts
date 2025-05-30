@@ -21,6 +21,7 @@ import { HowWorkComponent } from './core/component/how-work/how-work.component';
 import { WhyChooseComponent } from './core/component/why-choose/why-choose.component';
 import { PeopleSayComponent } from './core/component/people-say/people-say.component';
 import { register } from 'swiper/element/bundle';
+import { DownloadAppComponent } from './core/component/download-app/download-app.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -39,6 +40,7 @@ import { register } from 'swiper/element/bundle';
     HowWorkComponent,
     WhyChooseComponent,
     PeopleSayComponent,
+    DownloadAppComponent,
   ],
   imports: [
     BrowserModule,

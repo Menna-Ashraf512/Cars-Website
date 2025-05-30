@@ -1,0 +1,17 @@
+    .form-control {
+      background-color: #CEDCFF;
+      border: none;
+      border-radius: 20px;
+      padding: 10px 20px;
+      margin-bottom: 15px;
+    }
+
+    .btn-primary {
+      border-radius: 10px;
+      width: 100px;
+    }
+
+    .app-buttons img {
+      height: 40px;
+      margin-right: 10px;
+    }
